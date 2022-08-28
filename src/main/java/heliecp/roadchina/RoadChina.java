@@ -1,15 +1,19 @@
 package heliecp.roadchina;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.Mod.EventHandler;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
-import org.apache.logging.log4j.Logger;
+import heliecp.roadchina.Registry.block;
+import heliecp.roadchina.Registry.item;
+import net.fabricmc.api.ModInitializer;
 
-@Mod(modid = RoadChina.MODID, name = RoadChina.NAME, version = RoadChina.VERSION, acceptableRemoteVersions = "1.12.2")
-public class RoadChina
-{
-    public static final String MODID = "roadchina";
-    public static final String NAME = "RoadChina";
-    public static final String VERSION = "1.0Beta";
+import java.util.logging.LogManager;
+import java.util.logging.Logger;
 
+public class RoadChina implements ModInitializer {
+    public static final String MOD_ID = "road_china";
+    public static final Logger LOGGER = LogManager.getLogManager().getLogger(MOD_ID);
+
+    @Override
+    public void onInitialize() {
+        item.onLoad();
+        new block();
+    }
 }
