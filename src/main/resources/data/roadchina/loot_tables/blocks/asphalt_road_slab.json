@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls" : 1,
+      "entries" : [
+        {
+          "type" : "minecraft:item",
+          "name": "road_china:asphalt_road_slab"
+        }
+      ],
+      "conditions" : [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "itemGroup.road_china.white_road" : "道路中国 | 白线道路",
+  "itemGroup.road_china.road_china_item" : "道路中国 | 物品",
+  "itemGroup.road_china.road_marking": "道路中国 | 道路标线",
+
+  "block.road_china.asphalt_road" : "沥青路",
+
+  "block.road_china.asphalt_road_slab": "沥青路台阶",
+  "block.road_china.white_line_1_slab": "白线台阶",
+  "block.road_china.white_line_2_slab": "斜白线台阶",
+  "block.road_china.white_line_3_slab": "粗白线台阶",
+  "block.road_china.white_line_4_slab": "粗白线头台阶",
+  "block.road_china.white_line_5_slab": "白人行横道台阶",
+  "block.road_china.white_line_6_slab": "双白线台阶",
+  "block.road_china.white_line_7_slab": "斜双白线台阶",
+
+  "block.road_china.white_arrow_1": "白直向箭头",
+
+  "block.road_china.white_line_1" : "白线",
+  "block.road_china.white_line_2" : "斜白线",
+  "block.road_china.white_line_3" : "粗白线",
+  "block.road_china.white_line_4" : "粗白线头",
+  "block.road_china.white_line_5" : "白人行横道",
+  "block.road_china.white_line_6" : "双白线",
+  "block.road_china.white_line_7" : "斜双白线",
+
+  "item.road_china.wrench": "扳手",
+  "item.road_china.wrench.empty":"方块不具备属性",
+  "item.road_china.wrench.update":"\"%s\" to %s",
+  "item.road_china.wrench.select":"已选择 \"%s\" (%s)"
+}

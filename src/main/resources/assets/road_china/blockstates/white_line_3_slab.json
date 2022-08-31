@@ -1,0 +1,18 @@
+{
+  "variants": {
+    "facing=north,type=bottom": { "model": "road_china:block/slab/white_line_3_slab"},
+    "facing=east,type=bottom": { "model": "road_china:block/slab/white_line_3_slab","y": 90},
+    "facing=south,type=bottom": { "model": "road_china:block/slab/white_line_3_slab", "y": 180 },
+    "facing=west,type=bottom": { "model": "road_china:block/slab/white_line_3_slab" ,"y": 270},
+
+    "facing=north,type=top": { "model": "road_china:block/slab/white_line_3_slab_top"},
+    "facing=east,type=top": { "model": "road_china:block/slab/white_line_3_slab_top" ,"y": 90},
+    "facing=south,type=top": { "model": "road_china:block/slab/white_line_3_slab_top", "y": 180},
+    "facing=west,type=top": { "model": "road_china:block/slab/white_line_3_slab_top" ,"y": 270},
+
+    "facing=north,type=double": {"model": "road_china:block/white_line_3"},
+    "facing=east,type=double": {"model": "road_china:block/white_line_3","y": 90},
+    "facing=south,type=double": {"model": "road_china:block/white_line_3", "y": 180},
+    "facing=west,type=double": {"model": "road_china:block/white_line_3","y": 270}
+  }
+}

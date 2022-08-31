@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "road_china",
+  "version": "${version}",
+  "name": "RoadChina",
+  "description": "This is a chinese style road mod.",
+  "authors": [
+    "roadchina"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/RoadChina.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "heliecp.roadchina.RoadChina"
+    ],
+    "client": [
+      "heliecp.roadchina.RoadClient"
+    ]
+  },
+  "mixins": [
+    "roadchina.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric": "*",
+    "minecraft": "1.18.2"
+  }
+}
